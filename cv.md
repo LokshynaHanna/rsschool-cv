@@ -49,10 +49,13 @@ console.log(vowelsCounter3(prompt("введите строку для подсч
 [repl.it - closkSVG](https://repl.it/@AnnaLokshina/CLOCKSVG)
 [repl.it - validForm](https://repl.it/@AnnaLokshina/VALIDFORM)
 
-**Education**
-*June 2019 -Oct.2019*|  High Tech Park Aducation Center – JavaScript web application development
-*Feb.2019-June 2019*|IT Academy Stormnet – HTML/CSS/JavaScript-Development
-*Dec.2018-Feb.2019*|IT Academy Stormnet – Quality Assurance 
+**Education:**
+*June 2019 -Oct.2019* -  High Tech Park Aducation Center – JavaScript web application development
+*Feb.2019-June 2019* - IT Academy Stormnet – HTML/CSS/JavaScript-Development
+*Dec.2018-Feb.2019* - IT Academy Stormnet – Quality Assurance 
+
+**English** Pre-Intermediate (A2) and constantly improving it
+
 
 
 
