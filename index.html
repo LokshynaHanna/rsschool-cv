@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,35 +8,96 @@
     <title>CV Lokshyna Hanna</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-<div class="container">
-<h1 class="name">Lokshyna Hanna</h1>
-<img class="foto" src="./assets/image/myFoto.jpg" alt="Foto" width="200px">
-<div >
-    <table class="tab">
-        <tr>
-            <td class="table-header">Contacts</td>
-            <td>Minsk
-                <br>Phone number: +375 29 506 54 63
-                <br>Email: anna.lokshina1@gmail.com  
-                <br>Skype: AnnaLokshina  
-                <br><a href="https://www.linkedin.com/in/anna-lokshina-315777179/">LinkedIn</a>
-            </td>
-        </tr>
-    </table>
-    <table class="tab">
-        <tr>
-            <td class="table-header">Summary:</td>
-            <td>I’d like to start Junior Web-developer career in a stable company and grow to Teamlead in 5-7 years. I’m ready to quickly learn new material, learn a lot.</td>
+    <div class="container">
+        <h1 class="name">Lokshyna Hanna</h1>
+        <img class="foto" src="./assets/image/myFoto.jpg" alt="Foto" width="200px">
+        <div>
+            <table class="tab">
+                <tr>
+                    <td class="table-header">Contacts</td>
+                    <td>Minsk
+                        <br>Phone number: +375 29 506 54 63
+                        <br>Email: anna.lokshina1@gmail.com
+                        <br>Skype: AnnaLokshina
+                        <br><a href="https://www.linkedin.com/in/anna-lokshina-315777179/">LinkedIn</a>
+                    </td>
+                </tr>
 
-        </tr>
-        <tr>
-            <td class="table-header">Skills:</td>
-            <td>HTML/CSS(Flex, Grid, BEM, Responsive Design)/JavaScript, SVG, Canvas, Gulp, Git, Bootstrap.</td>
-        </tr>
-    </table>
-</div>
-</div>
+                <tr>
+                    <td class="table-header">Summary:</td>
+                    <td>I’d like to start Junior Web-developer career in a stable company and grow to Teamlead in 5-7
+                        years. I’m ready to quickly learn new material, learn a lot.</td>
+
+                </tr>
+                <tr>
+                    <td class="table-header">Skills:</td>
+                    <td>HTML/CSS(Flex, Grid, BEM, Responsive Design)/JavaScript, SVG, Canvas, Gulp, Git, Bootstrap.</td>
+                </tr>
+                <tr>
+                    <td class="table-header">Code examples:</td>
+                    <td>
+                        <pre><code>
+   "use strict"
+function vowelsCounter1(str) {
+    var strArr = str.split('');
+    var counter = 0;
+     strArr.forEach(currentEl => { 
+      if ( 'уеыаоэяию'.includes(currentEl) ) 
+        counter++;
+    } )
+    return counter;
+}
+console.log(vowelsCounter1(prompt('Введите строку для подсчета гласных')));
+
+function vowelsCounter2(str){
+  var strArr = str.split('');
+  var resultVowels = strArr. filter( el => 'ауеыоэяию'.includes(el));
+  return resultVowels.length;
+}
+console.log(vowelsCounter2(prompt('Введите строку для подсчета гласных')));
+
+function vowelsCounter3(str) {
+  var strArr = str.split('');
+  var resultVowels = strArr.reduce((accum, value) => {
+    if('уеыаоэяию'.includes(value) == true ){
+       accum++
+    };
+    return accum;
+    }, 0);
+    return resultVowels;
+}
+console.log(vowelsCounter3(prompt('введите строку для подсчета гласных')));</code></pre>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="table-header">Experience:</td>
+                    <td> I have experience working on projects in courses.
+                        <br><a href="https://repl.it/@AnnaLokshina/CLOCKSVG">repl.it - closkSVG</a>
+                        <br><a href="https://repl.it/@AnnaLokshina/VALIDFORM">repl.it - validForm</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="table-header">Education:</td>
+                    <td>
+                        <i>June 2019 -Oct.2019 - </i> High Tech Park Aducation Center – JavaScript web application
+                        development
+                        <br><i>Feb.2019-June 2019 - </i> IT Academy Stormnet – HTML/CSS/JavaScript-Development
+                        <br><i>Dec.2018-Feb.2019 - </i>IT Academy Stormnet – Quality Assurance
+                    </td>
+                </tr>
+                <tr>
+                    <td class="table-header">English:</td>
+                    <td>
+                        Pre-Intermediate (A2) and constantly improving it.
+                    </td>
+                </tr>
+            </table>
+            <table class="tab">
+            </table>
+        </div>
+    </div>
 </body>
-</html>
 
+</html>
