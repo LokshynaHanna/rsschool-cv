@@ -12,36 +12,44 @@ Minsk
 **Skills:**HTML/CSS(Flex, Grid, BEM, Responsive Design)/JavaScript, SVG, Canvas, Gulp, Git, Bootstrap.
 
 **Code examples:**
-`"use strict"
+`
+"use strict"
 function vowelsCounter1(str) {
-    var strArr = str.split('');
+    var strArr = str.split("");
     var counter = 0;
-     strArr.forEach(currentEl => { 
-      if ( 'уеыаоэяию'.includes(currentEl) ) 
+    strArr.forEach(currentEl => { 
+        if ( "уеыаоэяию".includes(currentEl) )
         counter++;
     } )
     return counter;
 }
-console.log(vowelsCounter1(prompt('Введите строку для подсчета гласных')));
+console.log(vowelsCounter1(prompt("Введите строку для подсчета гласных")));
 
 function vowelsCounter2(str){
-  var strArr = str.split('');
-  var resultVowels = strArr. filter( el => 'ауеыоэяию'.includes(el));
-  return resultVowels.length;
+    var strArr = str.split("");
+    var resultVowels = strArr. filter( el => "ауеыоэяию".includes(el));
+    return resultVowels.length;
 }
-console.log(vowelsCounter2(prompt('Введите строку для подсчета гласных')));
+console.log(vowelsCounter2(prompt("Введите строку для подсчета гласных")));
 
 function vowelsCounter3(str) {
-  var strArr = str.split('');
-  var resultVowels = strArr.reduce((accum, value) => {
-    if('уеыаоэяию'.includes(value) == true ){
-       accum++
-    };
+    var strArr = str.split("");
+    var resultVowels = strArr.reduce((accum, value) => {
+        if("уеыаоэяию".includes(value) == true ){
+            accum++
+       };
     return accum;
     }, 0);
     return resultVowels;
 }
-console.log(vowelsCounter3(prompt('введите строку для подсчета гласных')));`
+console.log(vowelsCounter3(prompt("введите строку для подсчета гласных")));
+`
+
+**Experience:** I have experience working on projects in courses.
+[repl.it - closkSVG](https://repl.it/@AnnaLokshina/CLOCKSVG)
+[repl.it - validForm](https://repl.it/@AnnaLokshina/VALIDFORM)
+
+
 
 
 
